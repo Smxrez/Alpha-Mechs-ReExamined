@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RecipeDef[defName="AM_DominionRecipe"]/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>VFE_HardwareUpgrade</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RecipeDef[defName="AM_EvisceratorRecipe"]/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>VFE_HardwareUpgrade</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RecipeDef[defName="AM_IncineratorRecipe"]/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>VFE_HardwareUpgrade</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RecipeDef[defName="AM_ColossusRecipe"]/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>VFE_HardwareUpgrade</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RecipeDef[defName="AM_HopliteRecipe"]/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>VFE_HardwareUpgrade</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RecipeDef[defName="AM_SiegemasterRecipe"]/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>VFE_HardwareUpgrade</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RecipeDef[defName="AM_PristineSlurrymasterRecipe"]/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>VFE_HardwareUpgrade</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ResearchProjectDef[defName="AM_AlphaHardwareUpgrade"]</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

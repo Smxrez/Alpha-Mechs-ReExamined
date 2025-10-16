@@ -1,0 +1,29 @@
+<ModMetaData>
+	<packageId>Smxrez.alphamechsrexamined</packageId>
+	<name>Alpha Mechs: Re-Examined</name>
+	<author>Smxrez</author>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+	<li>
+		<packageId>sarg.alphamechs</packageId>
+		<displayName>Alpha Mechs</displayName>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/2973169158</steamWorkshopUrl>
+	</li>
+	<li>
+		<packageId>Ludeon.RimWorld.Biotech</packageId>
+		<displayName>Biotech</displayName>
+	</li>
+	</modDependencies>
+	<description>Merges and revamps alpha mechs research progression</description>
+	<loadAfter>
+		<li>sarg.alphamechs</li>
+		<li>oskarpotocki.vfe.mechanoid</li>
+		<li>ferny.progressionrobotics</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>ferny.progressionrobotics</li>
+	</incompatibleWith>
+</ModMetaData>
