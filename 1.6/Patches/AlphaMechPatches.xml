@@ -263,6 +263,45 @@
                <attribute>Abstract</attribute>
                <value>True</value>
          </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RecipeDef[defName="AM_AuraRecipe"]/ingredients</xpath>
+          <value>
+          <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>125</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+          </ingredients>
+          </value>
+        </li>
       </operations>
     </match>
   </Operation>
